@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "sealed_service_test_used": false,
+  "sealed_vision_test_used": false,
+  "files": [
+    {
+      "path": "artifacts/app/redis_cache_verification.json",
+      "sha256": "f3f88849b03121aa7c21e6594858c7b97aec434efedffa28bdb8358af1884c42",
+      "bytes": 299
+    },
+    {
+      "path": "artifacts/app/workflow_verification.json",
+      "sha256": "4556339795f8c55a79dc910efda45ba4e7d069f4a09ec1c6a03294a8b4d49ed2",
+      "bytes": 602
+    }
+  ]
+}

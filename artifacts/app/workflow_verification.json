@@ -1,0 +1,28 @@
+{
+  "sealed_service_test_used": false,
+  "sealed_vision_test_used": false,
+  "question_flow": {
+    "retrieval_mode": "redis_vector",
+    "provider_status": "ok",
+    "citations_valid": true,
+    "first_cache_status": "miss",
+    "second_cache_status": "hit",
+    "escalate": true
+  },
+  "vision_flow": {
+    "source_split": "development",
+    "score": 0.6361742615699768,
+    "threshold": 0.5777816772460938,
+    "map_shape": [
+      128,
+      128
+    ]
+  },
+  "health": {
+    "status": "ok",
+    "redis": "ok",
+    "generation": "ok",
+    "final_test_used": false
+  },
+  "all_checks_passed": true
+}

@@ -17,6 +17,7 @@ dependencies = [
   "redis>=6.2,<8",
   "scikit-learn>=1.6,<2",
   "sentence-transformers>=5,<6",
+  "streamlit>=1.52,<2",
   "torchvision>=0.29,<0.30",
 ]
 
@@ -32,6 +33,8 @@ download-mvtec = "generator_service_copilot.download:main"
 train-nlp = "generator_service_copilot.nlp:main"
 train-vision = "generator_service_copilot.vision:main"
 evaluate-prompts = "generator_service_copilot.prompts:main"
+generator-copilot = "generator_service_copilot.app:main"
+verify-app-cache = "generator_service_copilot.app_verify:main"
 
 [tool.pytest.ini_options]
 addopts = "-q"

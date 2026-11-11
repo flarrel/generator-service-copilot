@@ -1,0 +1,11 @@
+{
+  "redis_version": "8.2.3",
+  "cold_cache_initial_miss": true,
+  "cache_hit": true,
+  "ttl_after_write_seconds": 1,
+  "expiry_verified": true,
+  "current_version_invalidation_count": 1,
+  "document_version_isolation": true,
+  "restart_cleared_ephemeral_cache": true,
+  "all_checks_passed": true
+}
