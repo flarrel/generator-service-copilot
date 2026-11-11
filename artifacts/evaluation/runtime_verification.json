@@ -1,0 +1,10 @@
+{
+  "redis_image": "redis:8.2.3-alpine@sha256:08ad0b1d280850169a790dba1393ff7a90aef951fc19632cf4d3ce4f78e679ba",
+  "redis_health": "ok",
+  "vector_index_initialization": "passed",
+  "streamlit_health_url": "http://127.0.0.1:8501/_stcore/health",
+  "streamlit_health_response": "ok",
+  "streamlit_exit": "clean",
+  "redis_container_removed": true,
+  "public_deployment": false
+}

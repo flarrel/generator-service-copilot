@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "test_splits_opened": true,
+  "test_results_used_for_tuning": false,
+  "files": [
+    {
+      "path": "artifacts/evaluation/report.json",
+      "sha256": "153c0dd9ae1eaa55e11586d3fb9aa0b0379147d20bac844d7e2a950c7a2e3872",
+      "bytes": 8785
+    },
+    {
+      "path": "artifacts/evaluation/service_test_generations.csv",
+      "sha256": "291347add8a21e51141b8c454d1a465bf093f654461de10c137675f8e22e28b2",
+      "bytes": 25824
+    },
+    {
+      "path": "artifacts/evaluation/vision_test_predictions.csv",
+      "sha256": "e7da7729ff117a3f66c9d5f9ed5b3a753a4ad17d9d426f2dcbac1a7d87152312",
+      "bytes": 4615
+    },
+    {
+      "path": "artifacts/evaluation/adversarial_generations.csv",
+      "sha256": "2cd5e4de89802298a8ee8a03f5e2ad423eea2d372a5606c7978f4e0d784e6c70",
+      "bytes": 3229
+    },
+    {
+      "path": "artifacts/evaluation/intent_test_comparison.png",
+      "sha256": "dc7d984516394276dd5f9b311f5abab01c74ee749f7bc018a308c460ec546eeb",
+      "bytes": 22444
+    },
+    {
+      "path": "artifacts/evaluation/vision_test_scores.png",
+      "sha256": "670051210b8c4e83092fff888040eae277d0191db4b97caeb3c4c35015e616d4",
+      "bytes": 31600
+    },
+    {
+      "path": "artifacts/evaluation/generation_test_quality.png",
+      "sha256": "1de10cc5ebede24e8ee668f2a35a971276c3402a1461f116924e506102931ff9",
+      "bytes": 22555
+    },
+    {
+      "path": "artifacts/evaluation/runtime_verification.json",
+      "sha256": "c224b4cf0c40952a869f94b8612876a3565b7a3a69b7a8151b9d8a0f2556f7fc",
+      "bytes": 378
+    }
+  ]
+}

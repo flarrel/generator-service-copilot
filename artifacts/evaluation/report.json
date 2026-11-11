@@ -1,0 +1,359 @@
+{
+  "protocol": {
+    "opened_once": true,
+    "selection_frozen_before_test": true,
+    "test_results_used_for_tuning": false,
+    "service_test_rows": 64,
+    "vision_test_rows": 74,
+    "service_test_sha256": "54528d5dac17be707f214066c2b70a61fa1341cec924a869dffffd796bb70ef6",
+    "vision_manifest_sha256": "f43582c2582dc0523be6a7e1041b50039ec4135acc71cac4b21658a12e3d4e31"
+  },
+  "nlp": {
+    "candidates": {
+      "majority": {
+        "accuracy": 0.125,
+        "macro_f1": 0.027777777777777776
+      },
+      "tfidf_logistic": {
+        "accuracy": 0.3125,
+        "macro_f1": 0.2833333333333333
+      },
+      "embedding_mlp": {
+        "accuracy": 0.828125,
+        "macro_f1": 0.8092851592851593,
+        "per_class": {
+          "alarm_interpretation": {
+            "precision": 0.8,
+            "recall": 1.0,
+            "f1-score": 0.8888888888888888,
+            "support": 8.0
+          },
+          "consumables": {
+            "precision": 1.0,
+            "recall": 0.625,
+            "f1-score": 0.7692307692307693,
+            "support": 8.0
+          },
+          "electrical_inspection": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "gas_quality": {
+            "precision": 0.8571428571428571,
+            "recall": 0.75,
+            "f1-score": 0.8,
+            "support": 8.0
+          },
+          "human_escalation": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "installation": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1-score": 0.4,
+            "support": 8.0
+          },
+          "maintenance": {
+            "precision": 0.5714285714285714,
+            "recall": 1.0,
+            "f1-score": 0.7272727272727273,
+            "support": 8.0
+          },
+          "pressure_flow": {
+            "precision": 0.8,
+            "recall": 1.0,
+            "f1-score": 0.8888888888888888,
+            "support": 8.0
+          },
+          "accuracy": 0.828125,
+          "macro avg": {
+            "precision": 0.8785714285714286,
+            "recall": 0.828125,
+            "f1-score": 0.8092851592851593,
+            "support": 64.0
+          },
+          "weighted avg": {
+            "precision": 0.8785714285714286,
+            "recall": 0.828125,
+            "f1-score": 0.8092851592851593,
+            "support": 64.0
+          }
+        }
+      }
+    },
+    "selected": {
+      "accuracy": 0.828125,
+      "macro_f1": 0.8092851592851593,
+      "per_class": {
+        "alarm_interpretation": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 8.0
+        },
+        "consumables": {
+          "precision": 1.0,
+          "recall": 0.625,
+          "f1-score": 0.7692307692307693,
+          "support": 8.0
+        },
+        "electrical_inspection": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "gas_quality": {
+          "precision": 0.8571428571428571,
+          "recall": 0.75,
+          "f1-score": 0.8,
+          "support": 8.0
+        },
+        "human_escalation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "installation": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1-score": 0.4,
+          "support": 8.0
+        },
+        "maintenance": {
+          "precision": 0.5714285714285714,
+          "recall": 1.0,
+          "f1-score": 0.7272727272727273,
+          "support": 8.0
+        },
+        "pressure_flow": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 8.0
+        },
+        "accuracy": 0.828125,
+        "macro avg": {
+          "precision": 0.8785714285714286,
+          "recall": 0.828125,
+          "f1-score": 0.8092851592851593,
+          "support": 64.0
+        },
+        "weighted avg": {
+          "precision": 0.8785714285714286,
+          "recall": 0.828125,
+          "f1-score": 0.8092851592851593,
+          "support": 64.0
+        }
+      },
+      "abstention_threshold": 0.65,
+      "coverage": 0.796875,
+      "accepted_accuracy": 0.9607843137254902,
+      "confusion_matrix_labels": [
+        "alarm_interpretation",
+        "consumables",
+        "electrical_inspection",
+        "gas_quality",
+        "human_escalation",
+        "installation",
+        "maintenance",
+        "pressure_flow"
+      ],
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          0,
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "retrieval": {
+      "lexical": {
+        "recall_at_1": 0.453125,
+        "recall_at_3": 0.734375,
+        "mrr": 0.6058264001623377
+      },
+      "dense": {
+        "recall_at_1": 0.484375,
+        "recall_at_3": 0.78125,
+        "mrr": 0.6537295386904762
+      },
+      "hybrid": {
+        "recall_at_1": 0.46875,
+        "recall_at_3": 0.734375,
+        "mrr": 0.635583815613566
+      }
+    }
+  },
+  "vision": {
+    "candidates": {
+      "pca_reconstruction": {
+        "roc_auc": 0.7670498084291187,
+        "average_precision": 0.8552235142489629,
+        "threshold": 0.46091222763061523,
+        "precision": 0.7169811320754716,
+        "recall": 0.8444444444444444,
+        "f1": 0.7755102040816326,
+        "false_positive_rate": 0.5172413793103449,
+        "confusion_matrix": {
+          "tn": 14,
+          "fp": 15,
+          "fn": 7,
+          "tp": 38
+        }
+      },
+      "autoencoder_top_01_percent": {
+        "roc_auc": 0.5900383141762451,
+        "average_precision": 0.7551525088242621,
+        "threshold": 0.02514674700796604,
+        "precision": 0.6081081081081081,
+        "recall": 1.0,
+        "f1": 0.7563025210084033,
+        "false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "tn": 0,
+          "fp": 29,
+          "fn": 0,
+          "tp": 45
+        }
+      },
+      "resnet_patch_top_10_percent": {
+        "roc_auc": 0.9885057471264367,
+        "average_precision": 0.9929415994168411,
+        "threshold": 0.5777816772460938,
+        "precision": 0.9772727272727273,
+        "recall": 0.9555555555555556,
+        "f1": 0.9662921348314608,
+        "false_positive_rate": 0.034482758620689655,
+        "confusion_matrix": {
+          "tn": 28,
+          "fp": 1,
+          "fn": 2,
+          "tp": 43
+        }
+      }
+    },
+    "selected": "resnet_patch_top_10_percent",
+    "selected_metrics": {
+      "roc_auc": 0.9885057471264367,
+      "average_precision": 0.9929415994168411,
+      "threshold": 0.5777816772460938,
+      "precision": 0.9772727272727273,
+      "recall": 0.9555555555555556,
+      "f1": 0.9662921348314608,
+      "false_positive_rate": 0.034482758620689655,
+      "confusion_matrix": {
+        "tn": 28,
+        "fp": 1,
+        "fn": 2,
+        "tp": 43
+      }
+    },
+    "localization": {
+      "pixel_roc_auc_anomalous_images": 0.9430743826316913,
+      "pixel_average_precision_anomalous_images": 0.5481835371876811,
+      "micro_iou_anomalous_images": 0.3990721528403085,
+      "pixel_threshold": 0.627318799495697
+    }
+  },
+  "generation_and_integration": {
+    "test_cases": 64,
+    "schema_validity": 0.984375,
+    "citation_validity": 0.984375,
+    "grounded_action_coverage": 0.578125,
+    "unsafe_instruction_rate": 0.0,
+    "accepted_critical_safety_violations": 0,
+    "operational_escalation_rate": 0.921875,
+    "mean_latency_seconds": 9.587231136139508,
+    "integrated_success_rate": 0.5625,
+    "adversarial": {
+      "cases": 8,
+      "schema_validity": 1.0,
+      "citation_validity": 1.0,
+      "unsafe_instruction_rate": 0.0,
+      "accepted_critical_safety_violations": 0,
+      "operational_escalation_rate": 1.0
+    }
+  }
+}

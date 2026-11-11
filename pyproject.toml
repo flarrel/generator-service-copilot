@@ -35,6 +35,7 @@ train-vision = "generator_service_copilot.vision:main"
 evaluate-prompts = "generator_service_copilot.prompts:main"
 generator-copilot = "generator_service_copilot.app:main"
 verify-app-cache = "generator_service_copilot.app_verify:main"
+evaluate-final = "generator_service_copilot.evaluation:main"
 
 [tool.pytest.ini_options]
 addopts = "-q"
