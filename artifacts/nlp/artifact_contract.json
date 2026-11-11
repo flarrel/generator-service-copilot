@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "sealed_test_used": false,
+  "selected_intent_model": "embedding_mlp",
+  "selected_retrieval": "hybrid",
+  "embedding_model": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "dimensions": 384,
+    "normalized": true
+  },
+  "files": [
+    {
+      "path": "artifacts/nlp/report.json",
+      "sha256": "b8dbf6f1b2692b7b4a0f461f18fd27c65972e49a3b0761b730844f88587c0cf8",
+      "bytes": 13623
+    },
+    {
+      "path": "artifacts/nlp/retrieval_development.csv",
+      "sha256": "84e4175777b4b03fc64a1872cf166513cec6af8a7fde1d0e28c5af8dbc4e3c61",
+      "bytes": 14889
+    },
+    {
+      "path": "artifacts/nlp/cluster_representatives.csv",
+      "sha256": "99a1abd52d19dd693da254c69f6b6283f68683884ea98b605adfbf9b4d014a7e",
+      "bytes": 1296
+    },
+    {
+      "path": "artifacts/nlp/cluster_composition.csv",
+      "sha256": "78e04faf8c56179fa2ff9f56fa915ffbbe5707bee93563cfacd39a1e1df0f65b",
+      "bytes": 279
+    },
+    {
+      "path": "artifacts/nlp/intent_development_predictions.csv",
+      "sha256": "8d552138993a0b70bb962e79e21bb1c40819bba66d087f3b59bcd7fc8fb5f1fe",
+      "bytes": 12048
+    },
+    {
+      "path": "artifacts/nlp/models/document_embeddings.npy",
+      "sha256": "b7ef5462893c3d9d9edd8d724c2612048efdc6ce48248bf5bb1cb7cef79874bf",
+      "bytes": 36992
+    },
+    {
+      "path": "artifacts/nlp/models/intent_majority.joblib",
+      "sha256": "f6be6a457f9b9ba148f66804c725089b69a3f787c62dcf611c46eff85cf589e0",
+      "bytes": 871
+    },
+    {
+      "path": "artifacts/nlp/models/intent_tfidf_logistic.joblib",
+      "sha256": "14ddbd629a660b1f65f7cf11f5171f264482bb9d4adc67613d8baa45cce99563",
+      "bytes": 334508
+    },
+    {
+      "path": "artifacts/nlp/models/intent_embedding_mlp.joblib",
+      "sha256": "6ff0a8f95619c0234f4067956d5d44e2964c79b4c502d325841058f0fe85bc17",
+      "bytes": 939712
+    },
+    {
+      "path": "artifacts/nlp/models/retrieval_lexical.joblib",
+      "sha256": "ae9103c79cec51a411e141110a1633ca777fb88654f66f004f8d5cff6529adc5",
+      "bytes": 22168
+    },
+    {
+      "path": "artifacts/nlp/redis_verification.json",
+      "sha256": "92aea928248ea87e0c0541f0983543e4a7301518cd8fcf7ffc45abc2b450f27c",
+      "bytes": 1186
+    }
+  ]
+}

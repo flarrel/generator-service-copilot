@@ -6,6 +6,7 @@ __pycache__/
 *.egg-info/
 *.py[cod]
 .mplconfig/
+.hf_cache/
 
 # Licensed source images are downloaded locally and represented by manifests.
 data/external/mvtec_ad/**

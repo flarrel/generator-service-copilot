@@ -1,0 +1,519 @@
+{
+  "sealed_test_used": false,
+  "data": {
+    "train_rows": 192,
+    "development_rows": 64,
+    "test_rows_evaluated": 0,
+    "train_sha256": "125c34b74c3a2aeee2b439b585607e25bb866ab4dee51ee7244ea715347af0e3",
+    "development_sha256": "2bf2f325949cdaf25ef21884a5160ddac99e6077639350f4c2fe7334cf82719b"
+  },
+  "embedding_model": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "dimensions": 384,
+    "normalized": true
+  },
+  "leakage_audit": {
+    "method": "character TF-IDF cosine similarity, 3-5 grams",
+    "maximum_similarity": 0.692630817354701,
+    "p95_similarity": 0.6768578935263091,
+    "mean_similarity": 0.5476579270491002,
+    "pairs_at_or_above_0_90": 0,
+    "top_pairs": [
+      {
+        "development_case_id": "maintenance-08-v3",
+        "training_case_id": "maintenance-01-v3",
+        "similarity": 0.692630817354701,
+        "same_intent": true
+      },
+      {
+        "development_case_id": "consumables-01-v3",
+        "training_case_id": "installation-00-v3",
+        "similarity": 0.6908586917653061,
+        "same_intent": false
+      },
+      {
+        "development_case_id": "installation-02-v3",
+        "training_case_id": "installation-07-v3",
+        "similarity": 0.682502809870834,
+        "same_intent": true
+      },
+      {
+        "development_case_id": "pressure_flow-01-v3",
+        "training_case_id": "gas_quality-02-v3",
+        "similarity": 0.679413062632785,
+        "same_intent": false
+      },
+      {
+        "development_case_id": "alarm_interpretation-06-v3",
+        "training_case_id": "maintenance-06-v3",
+        "similarity": 0.6623786019229462,
+        "same_intent": false
+      },
+      {
+        "development_case_id": "consumables-01-v4",
+        "training_case_id": "installation-00-v4",
+        "similarity": 0.653899834478008,
+        "same_intent": false
+      },
+      {
+        "development_case_id": "alarm_interpretation-06-v4",
+        "training_case_id": "maintenance-06-v4",
+        "similarity": 0.6365964318236758,
+        "same_intent": false
+      },
+      {
+        "development_case_id": "maintenance-08-v4",
+        "training_case_id": "maintenance-01-v4",
+        "similarity": 0.6341178597060975,
+        "same_intent": true
+      },
+      {
+        "development_case_id": "pressure_flow-01-v4",
+        "training_case_id": "gas_quality-02-v4",
+        "similarity": 0.6280212566370155,
+        "same_intent": false
+      },
+      {
+        "development_case_id": "installation-02-v4",
+        "training_case_id": "installation-07-v4",
+        "similarity": 0.6267022096532489,
+        "same_intent": true
+      }
+    ]
+  },
+  "intent_candidates": {
+    "majority": {
+      "accuracy": 0.125,
+      "macro_f1": 0.027777777777777776,
+      "log_loss": 2.0794415416798357,
+      "expected_calibration_error": 0.0,
+      "fit_and_development_inference_seconds": 0.00021779199596494436,
+      "abstention": [
+        {
+          "threshold": 0.4,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.85,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.95,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        }
+      ],
+      "selected_abstention_threshold": 1.0,
+      "manual_prototype_rows": 0,
+      "per_class": {
+        "alarm_interpretation": {
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1-score": 0.2222222222222222,
+          "support": 8.0
+        },
+        "consumables": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "electrical_inspection": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "gas_quality": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "human_escalation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "installation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "maintenance": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "pressure_flow": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "accuracy": 0.125,
+        "macro avg": {
+          "precision": 0.015625,
+          "recall": 0.125,
+          "f1-score": 0.027777777777777776,
+          "support": 64.0
+        },
+        "weighted avg": {
+          "precision": 0.015625,
+          "recall": 0.125,
+          "f1-score": 0.027777777777777776,
+          "support": 64.0
+        }
+      }
+    },
+    "tfidf_logistic": {
+      "accuracy": 0.390625,
+      "macro_f1": 0.3726190476190476,
+      "log_loss": 1.7886537284223194,
+      "expected_calibration_error": 0.18034474271579373,
+      "fit_and_development_inference_seconds": 0.03659537501516752,
+      "abstention": [
+        {
+          "threshold": 0.4,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.85,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        },
+        {
+          "threshold": 0.95,
+          "coverage": 0.0,
+          "accepted_accuracy": 0.0
+        }
+      ],
+      "selected_abstention_threshold": 1.0,
+      "manual_prototype_rows": 0,
+      "per_class": {
+        "alarm_interpretation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "consumables": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "electrical_inspection": {
+          "precision": 0.5714285714285714,
+          "recall": 0.5,
+          "f1-score": 0.5333333333333333,
+          "support": 8.0
+        },
+        "gas_quality": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 8.0
+        },
+        "human_escalation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 8.0
+        },
+        "installation": {
+          "precision": 0.3076923076923077,
+          "recall": 0.5,
+          "f1-score": 0.38095238095238093,
+          "support": 8.0
+        },
+        "maintenance": {
+          "precision": 0.29411764705882354,
+          "recall": 0.625,
+          "f1-score": 0.4,
+          "support": 8.0
+        },
+        "pressure_flow": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "accuracy": 0.390625,
+        "macro avg": {
+          "precision": 0.39665481577246287,
+          "recall": 0.390625,
+          "f1-score": 0.3726190476190476,
+          "support": 64.0
+        },
+        "weighted avg": {
+          "precision": 0.39665481577246287,
+          "recall": 0.390625,
+          "f1-score": 0.3726190476190476,
+          "support": 64.0
+        }
+      }
+    },
+    "embedding_mlp": {
+      "accuracy": 0.859375,
+      "macro_f1": 0.8541947818263607,
+      "log_loss": 0.39614903926849365,
+      "expected_calibration_error": 0.08471396192908284,
+      "fit_and_development_inference_seconds": 0.18213900001137517,
+      "abstention": [
+        {
+          "threshold": 0.4,
+          "coverage": 1.0,
+          "accepted_accuracy": 0.859375
+        },
+        {
+          "threshold": 0.45,
+          "coverage": 1.0,
+          "accepted_accuracy": 0.859375
+        },
+        {
+          "threshold": 0.5,
+          "coverage": 0.984375,
+          "accepted_accuracy": 0.873015873015873
+        },
+        {
+          "threshold": 0.55,
+          "coverage": 0.984375,
+          "accepted_accuracy": 0.873015873015873
+        },
+        {
+          "threshold": 0.6,
+          "coverage": 0.921875,
+          "accepted_accuracy": 0.8813559322033898
+        },
+        {
+          "threshold": 0.65,
+          "coverage": 0.84375,
+          "accepted_accuracy": 0.9074074074074074
+        },
+        {
+          "threshold": 0.7,
+          "coverage": 0.84375,
+          "accepted_accuracy": 0.9074074074074074
+        },
+        {
+          "threshold": 0.75,
+          "coverage": 0.8125,
+          "accepted_accuracy": 0.9038461538461539
+        },
+        {
+          "threshold": 0.8,
+          "coverage": 0.765625,
+          "accepted_accuracy": 0.8979591836734694
+        },
+        {
+          "threshold": 0.85,
+          "coverage": 0.6875,
+          "accepted_accuracy": 0.9090909090909091
+        },
+        {
+          "threshold": 0.9,
+          "coverage": 0.65625,
+          "accepted_accuracy": 0.9285714285714286
+        },
+        {
+          "threshold": 0.95,
+          "coverage": 0.53125,
+          "accepted_accuracy": 0.9411764705882353
+        }
+      ],
+      "selected_abstention_threshold": 0.65,
+      "manual_prototype_rows": 72,
+      "per_class": {
+        "alarm_interpretation": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 8.0
+        },
+        "consumables": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 8.0
+        },
+        "electrical_inspection": {
+          "precision": 1.0,
+          "recall": 0.625,
+          "f1-score": 0.7692307692307693,
+          "support": 8.0
+        },
+        "gas_quality": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "human_escalation": {
+          "precision": 0.7272727272727273,
+          "recall": 1.0,
+          "f1-score": 0.8421052631578947,
+          "support": 8.0
+        },
+        "installation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "maintenance": {
+          "precision": 0.6,
+          "recall": 0.75,
+          "f1-score": 0.6666666666666666,
+          "support": 8.0
+        },
+        "pressure_flow": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 8.0
+        },
+        "accuracy": 0.859375,
+        "macro avg": {
+          "precision": 0.8909090909090909,
+          "recall": 0.859375,
+          "f1-score": 0.8541947818263607,
+          "support": 64.0
+        },
+        "weighted avg": {
+          "precision": 0.8909090909090909,
+          "recall": 0.859375,
+          "f1-score": 0.8541947818263607,
+          "support": 64.0
+        }
+      }
+    }
+  },
+  "selected_intent_model": "embedding_mlp",
+  "retrieval": {
+    "candidates": {
+      "lexical": {
+        "recall_at_1": 0.40625,
+        "recall_at_3": 0.671875,
+        "mrr": 0.5810639880952381
+      },
+      "dense": {
+        "recall_at_1": 0.5,
+        "recall_at_3": 0.8125,
+        "mrr": 0.6774223823051948
+      },
+      "hybrid": {
+        "recall_at_1": 0.5625,
+        "recall_at_3": 0.90625,
+        "mrr": 0.7194957883721671
+      }
+    },
+    "selected": "hybrid",
+    "hybrid_weights": {
+      "lexical": 0.6,
+      "dense": 0.4
+    }
+  },
+  "clustering": {
+    "silhouette": 0.14116068184375763,
+    "adjusted_rand_index": 0.13154376613457666,
+    "normalized_mutual_information": 0.32066227566400957
+  }
+}

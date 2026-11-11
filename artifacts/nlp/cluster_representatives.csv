@@ -1,0 +1,9 @@
+cluster,case_id,intent,text,members
+0,maintenance-02-v3,maintenance,"During a routine visit, the technician found that the inspection record contains an unresolved observation. Which procedure should be reviewed?",34
+1,maintenance-02-v4,maintenance,Service request: the inspection record contains an unresolved observation. Identify the next evidence-based step.,46
+2,installation-05-v4,installation,Service request: the startup checklist contains an unresolved item. Identify the next evidence-based step.,16
+3,pressure_flow-07-v4,pressure_flow,Service request: the process connection was changed before a low-flow report. Identify the next evidence-based step.,19
+4,maintenance-02-v1,maintenance,The inspection record contains an unresolved observation. What documented service path applies?,31
+5,human_escalation-06-v4,human_escalation,Service request: the unknown contractor modification changes the approved equipment layout. Identify the next evidence-based step.,14
+6,electrical_inspection-00-v4,electrical_inspection,Service request: the cable harness has a visible cut in its outer insulation. Identify the next evidence-based step.,20
+7,installation-07-v4,installation,Service request: the equipment label does not match the handover document. Identify the next evidence-based step.,12

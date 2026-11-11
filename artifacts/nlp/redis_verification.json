@@ -1,0 +1,42 @@
+{
+  "redis_version": "8.2.3",
+  "container_image": "redis:8.2.3-alpine",
+  "container_image_digest": "sha256:08ad0b1d280850169a790dba1393ff7a90aef951fc19632cf4d3ce4f78e679ba",
+  "index_name": "gsc_manuals_v1",
+  "indexed_chunks": 24,
+  "embedding_dimensions": 384,
+  "queries": [
+    {
+      "query": "The cable harness has damaged insulation.",
+      "expected_document_id": "GSC-DEMO-ELECTRICAL",
+      "returned_document_ids": [
+        "GSC-DEMO-ESCALATION",
+        "GSC-DEMO-ELECTRICAL",
+        "GSC-DEMO-CONSUMABLES"
+      ],
+      "passed": true
+    },
+    {
+      "query": "A suspected gas leak was reported.",
+      "expected_document_id": "GSC-DEMO-ESCALATION",
+      "returned_document_ids": [
+        "GSC-DEMO-ESCALATION",
+        "GSC-DEMO-INSTALL",
+        "GSC-DEMO-MAINTENANCE"
+      ],
+      "passed": true
+    },
+    {
+      "query": "The service record is missing a completed checklist.",
+      "expected_document_id": "GSC-DEMO-MAINTENANCE",
+      "returned_document_ids": [
+        "GSC-DEMO-MAINTENANCE",
+        "GSC-DEMO-ALARM",
+        "GSC-DEMO-MAINTENANCE"
+      ],
+      "passed": true
+    }
+  ],
+  "all_queries_passed": true,
+  "index_info_fields": 34
+}

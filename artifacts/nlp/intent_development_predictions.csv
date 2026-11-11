@@ -1,0 +1,65 @@
+case_id,intent,text,predicted_intent,confidence,correct
+alarm_interpretation-04-v1,alarm_interpretation,The event log records an intermittent communication alert. What documented service path applies?,alarm_interpretation,0.90485185,True
+alarm_interpretation-04-v2,alarm_interpretation,A customer reports that the event log records an intermittent communication alert. Route this request safely.,alarm_interpretation,0.9423307,True
+alarm_interpretation-04-v3,alarm_interpretation,"During a routine visit, the technician found that the event log records an intermittent communication alert. Which procedure should be reviewed?",alarm_interpretation,0.96309096,True
+alarm_interpretation-04-v4,alarm_interpretation,Service request: the event log records an intermittent communication alert. Identify the next evidence-based step.,alarm_interpretation,0.88668,True
+alarm_interpretation-06-v1,alarm_interpretation,The controller reports a maintenance reminder. What documented service path applies?,maintenance,0.9483041,False
+alarm_interpretation-06-v2,alarm_interpretation,A customer reports that the controller reports a maintenance reminder. Route this request safely.,maintenance,0.852533,False
+alarm_interpretation-06-v3,alarm_interpretation,"During a routine visit, the technician found that the controller reports a maintenance reminder. Which procedure should be reviewed?",maintenance,0.9634105,False
+alarm_interpretation-06-v4,alarm_interpretation,Service request: the controller reports a maintenance reminder. Identify the next evidence-based step.,maintenance,0.9801499,False
+consumables-01-v1,consumables,The water-treatment cartridge has no recorded installation date. What documented service path applies?,consumables,0.98375165,True
+consumables-01-v2,consumables,A customer reports that the water-treatment cartridge has no recorded installation date. Route this request safely.,consumables,0.98065484,True
+consumables-01-v3,consumables,"During a routine visit, the technician found that the water-treatment cartridge has no recorded installation date. Which procedure should be reviewed?",consumables,0.9555897,True
+consumables-01-v4,consumables,Service request: the water-treatment cartridge has no recorded installation date. Identify the next evidence-based step.,consumables,0.98917234,True
+consumables-06-v1,consumables,The replacement cartridge has a different part label from the removed item. What documented service path applies?,consumables,0.99861014,True
+consumables-06-v2,consumables,A customer reports that the replacement cartridge has a different part label from the removed item. Route this request safely.,consumables,0.9991153,True
+consumables-06-v3,consumables,"During a routine visit, the technician found that the replacement cartridge has a different part label from the removed item. Which procedure should be reviewed?",consumables,0.9966718,True
+consumables-06-v4,consumables,Service request: the replacement cartridge has a different part label from the removed item. Identify the next evidence-based step.,consumables,0.9984503,True
+electrical_inspection-01-v1,electrical_inspection,The terminal block contains a connector that appears loose. What documented service path applies?,human_escalation,0.6209265,False
+electrical_inspection-01-v2,electrical_inspection,A customer reports that the terminal block contains a connector that appears loose. Route this request safely.,human_escalation,0.58594716,False
+electrical_inspection-01-v3,electrical_inspection,"During a routine visit, the technician found that the terminal block contains a connector that appears loose. Which procedure should be reviewed?",electrical_inspection,0.76046187,True
+electrical_inspection-01-v4,electrical_inspection,Service request: the terminal block contains a connector that appears loose. Identify the next evidence-based step.,human_escalation,0.4825533,False
+electrical_inspection-04-v1,electrical_inspection,The sensor cable shows abrasion near a clamp. What documented service path applies?,electrical_inspection,0.97659963,True
+electrical_inspection-04-v2,electrical_inspection,A customer reports that the sensor cable shows abrasion near a clamp. Route this request safely.,electrical_inspection,0.99712116,True
+electrical_inspection-04-v3,electrical_inspection,"During a routine visit, the technician found that the sensor cable shows abrasion near a clamp. Which procedure should be reviewed?",electrical_inspection,0.99032485,True
+electrical_inspection-04-v4,electrical_inspection,Service request: the sensor cable shows abrasion near a clamp. Identify the next evidence-based step.,electrical_inspection,0.98007613,True
+gas_quality-00-v1,gas_quality,The quality display shows a reading outside the expected operating state. What documented service path applies?,gas_quality,0.98660326,True
+gas_quality-00-v2,gas_quality,A customer reports that the quality display shows a reading outside the expected operating state. Route this request safely.,gas_quality,0.98062277,True
+gas_quality-00-v3,gas_quality,"During a routine visit, the technician found that the quality display shows a reading outside the expected operating state. Which procedure should be reviewed?",gas_quality,0.7766934,True
+gas_quality-00-v4,gas_quality,Service request: the quality display shows a reading outside the expected operating state. Identify the next evidence-based step.,gas_quality,0.9797293,True
+gas_quality-04-v1,gas_quality,The sampling record does not identify the sampling point. What documented service path applies?,gas_quality,0.775025,True
+gas_quality-04-v2,gas_quality,A customer reports that the sampling record does not identify the sampling point. Route this request safely.,gas_quality,0.74066234,True
+gas_quality-04-v3,gas_quality,"During a routine visit, the technician found that the sampling record does not identify the sampling point. Which procedure should be reviewed?",gas_quality,0.83818245,True
+gas_quality-04-v4,gas_quality,Service request: the sampling record does not identify the sampling point. Identify the next evidence-based step.,gas_quality,0.83114934,True
+human_escalation-02-v1,human_escalation,The operator reports symptoms after a possible gas exposure. What documented service path applies?,human_escalation,0.9965959,True
+human_escalation-02-v2,human_escalation,A customer reports that the operator reports symptoms after a possible gas exposure. Route this request safely.,human_escalation,0.9969683,True
+human_escalation-02-v3,human_escalation,"During a routine visit, the technician found that the operator reports symptoms after a possible gas exposure. Which procedure should be reviewed?",human_escalation,0.9949844,True
+human_escalation-02-v4,human_escalation,Service request: the operator reports symptoms after a possible gas exposure. Identify the next evidence-based step.,human_escalation,0.9962165,True
+human_escalation-05-v1,human_escalation,The ventilation system is unavailable in the equipment area. What documented service path applies?,human_escalation,0.91774654,True
+human_escalation-05-v2,human_escalation,A customer reports that the ventilation system is unavailable in the equipment area. Route this request safely.,human_escalation,0.9433012,True
+human_escalation-05-v3,human_escalation,"During a routine visit, the technician found that the ventilation system is unavailable in the equipment area. Which procedure should be reviewed?",human_escalation,0.94242746,True
+human_escalation-05-v4,human_escalation,Service request: the ventilation system is unavailable in the equipment area. Identify the next evidence-based step.,human_escalation,0.92066836,True
+installation-02-v1,installation,The equipment location does not match the approved layout drawing. What documented service path applies?,installation,0.70524204,True
+installation-02-v2,installation,A customer reports that the equipment location does not match the approved layout drawing. Route this request safely.,installation,0.6335049,True
+installation-02-v3,installation,"During a routine visit, the technician found that the equipment location does not match the approved layout drawing. Which procedure should be reviewed?",installation,0.6359049,True
+installation-02-v4,installation,Service request: the equipment location does not match the approved layout drawing. Identify the next evidence-based step.,installation,0.8108694,True
+installation-09-v1,installation,The operator handover does not include the escalation contacts. What documented service path applies?,installation,0.6490305,True
+installation-09-v2,installation,A customer reports that the operator handover does not include the escalation contacts. Route this request safely.,installation,0.59724236,True
+installation-09-v3,installation,"During a routine visit, the technician found that the operator handover does not include the escalation contacts. Which procedure should be reviewed?",installation,0.93662274,True
+installation-09-v4,installation,Service request: the operator handover does not include the escalation contacts. Identify the next evidence-based step.,installation,0.56687796,True
+maintenance-05-v1,maintenance,The cleaning record does not state which approved method was used. What documented service path applies?,consumables,0.8002594,False
+maintenance-05-v2,maintenance,A customer reports that the cleaning record does not state which approved method was used. Route this request safely.,consumables,0.6278433,False
+maintenance-05-v3,maintenance,"During a routine visit, the technician found that the cleaning record does not state which approved method was used. Which procedure should be reviewed?",maintenance,0.805192,True
+maintenance-05-v4,maintenance,Service request: the cleaning record does not state which approved method was used. Identify the next evidence-based step.,maintenance,0.5852923,True
+maintenance-08-v1,maintenance,The routine inspection found a condition not covered by the checklist. What documented service path applies?,maintenance,0.97978747,True
+maintenance-08-v2,maintenance,A customer reports that the routine inspection found a condition not covered by the checklist. Route this request safely.,maintenance,0.9884334,True
+maintenance-08-v3,maintenance,"During a routine visit, the technician found that the routine inspection found a condition not covered by the checklist. Which procedure should be reviewed?",maintenance,0.98771054,True
+maintenance-08-v4,maintenance,Service request: the routine inspection found a condition not covered by the checklist. Identify the next evidence-based step.,maintenance,0.9978097,True
+pressure_flow-00-v1,pressure_flow,The outlet flow indication drops during otherwise steady operation. What documented service path applies?,pressure_flow,0.9966472,True
+pressure_flow-00-v2,pressure_flow,A customer reports that the outlet flow indication drops during otherwise steady operation. Route this request safely.,pressure_flow,0.99187756,True
+pressure_flow-00-v3,pressure_flow,"During a routine visit, the technician found that the outlet flow indication drops during otherwise steady operation. Which procedure should be reviewed?",pressure_flow,0.9976125,True
+pressure_flow-00-v4,pressure_flow,Service request: the outlet flow indication drops during otherwise steady operation. Identify the next evidence-based step.,pressure_flow,0.997437,True
+pressure_flow-01-v1,pressure_flow,The pressure trend changes after a service activity. What documented service path applies?,pressure_flow,0.99356925,True
+pressure_flow-01-v2,pressure_flow,A customer reports that the pressure trend changes after a service activity. Route this request safely.,pressure_flow,0.98182,True
+pressure_flow-01-v3,pressure_flow,"During a routine visit, the technician found that the pressure trend changes after a service activity. Which procedure should be reviewed?",pressure_flow,0.99510914,True
+pressure_flow-01-v4,pressure_flow,Service request: the pressure trend changes after a service activity. Identify the next evidence-based step.,pressure_flow,0.99193066,True
