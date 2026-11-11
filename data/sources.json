@@ -22,5 +22,12 @@
     "license_sha256": "a355a57937552790ebd751f8a8026b23882160ab73f1c38f8030456dfcf1a330",
     "raw_data_committed": false,
     "usage": "non-commercial industrial-inspection proxy only"
+  },
+  "resnet18_imagenet1k_v1": {
+    "repository": "torchvision",
+    "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "cache_committed": false,
+    "usage": "frozen patch features for local cable anomaly detection"
   }
 }

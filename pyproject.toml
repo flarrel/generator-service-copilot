@@ -16,6 +16,7 @@ dependencies = [
   "redis>=6.2,<8",
   "scikit-learn>=1.6,<2",
   "sentence-transformers>=5,<6",
+  "torchvision>=0.29,<0.30",
 ]
 
 [project.optional-dependencies]
@@ -28,6 +29,7 @@ dev = [
 prepare-data = "generator_service_copilot.data:main"
 download-mvtec = "generator_service_copilot.download:main"
 train-nlp = "generator_service_copilot.nlp:main"
+train-vision = "generator_service_copilot.vision:main"
 
 [tool.pytest.ini_options]
 addopts = "-q"

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "sealed_test_used": false,
+  "selected_candidate": "resnet_patch_top_10_percent",
+  "selected_threshold": 0.5777816772460938,
+  "image_size": 128,
+  "files": [
+    {
+      "path": "artifacts/vision/report.json",
+      "sha256": "cee3f592917799a6ef2b54a4a263119a50c5e879904ee347d1ddb7a84ccdc1b5",
+      "bytes": 5082
+    },
+    {
+      "path": "artifacts/vision/development_predictions.csv",
+      "sha256": "5b46ec3a1ed52a6dfd75e84c828e4e5024912692622acb4a1926d395dfa3a0a1",
+      "bytes": 16108
+    },
+    {
+      "path": "artifacts/vision/training_loss.png",
+      "sha256": "258c5f6b23f6ad7f8661aa603d4bd88414d7189d3d9abfc0a2a812a1b142102f",
+      "bytes": 37583
+    },
+    {
+      "path": "artifacts/vision/development_precision_recall.png",
+      "sha256": "0f456e38c6e60b8070b5f2dbff6ee42344a3e199b82bde6520b694bfc299c385",
+      "bytes": 116105
+    },
+    {
+      "path": "artifacts/vision/reconstruction_examples.png",
+      "sha256": "023cb1e7b638c3b25203c0f9fa4e2b65ab72c4f08c183e0ccd828e380b889ed9",
+      "bytes": 197813
+    },
+    {
+      "path": "artifacts/vision/models/autoencoder.pt",
+      "sha256": "6e062914f86e855662acafc73763d72c3ec33cdca9400a1f78215155f894925a",
+      "bytes": 266567
+    },
+    {
+      "path": "artifacts/vision/models/pca_reconstruction.joblib",
+      "sha256": "2d869648decd9876bad472d9b1eac8ea33e465bfeb4ffd97a660c010e4a612e8",
+      "bytes": 583794
+    },
+    {
+      "path": "artifacts/vision/models/train_map_reference.npy",
+      "sha256": "02ff339871d7990d0bc5bdf664ef5fb720971804a4c2df0a788d22d8132ab9ef",
+      "bytes": 65664
+    },
+    {
+      "path": "artifacts/vision/models/patch_memory.npy",
+      "sha256": "105c392a87c7f8d798f974d4e8bf9b2c6383ce7b392ee171eb1a5157b0710403",
+      "bytes": 2560128
+    }
+  ]
+}
