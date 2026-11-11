@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "sealed_test_used": false,
+  "selected_variant": "v3_few_shot",
+  "selection_status": "selected",
+  "files": [
+    {
+      "path": "artifacts/prompts/report.json",
+      "sha256": "e676e2c202aef14c57cff6e2bc84a311e0aa658489f4a9fe38d0ef6fcb1a93b8",
+      "bytes": 3862
+    },
+    {
+      "path": "artifacts/prompts/generations.csv",
+      "sha256": "d6d3f8b5b479b814995c05aef6d795a8f6de9ade57f7cd1fdcf532deed4e1f4d",
+      "bytes": 49516
+    },
+    {
+      "path": "prompts/variants.json",
+      "sha256": "8a4e48606992483610b3b71793b22acb22579a178a5b7cc932946dc0786d0e57",
+      "bytes": 2559
+    }
+  ]
+}

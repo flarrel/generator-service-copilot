@@ -29,5 +29,14 @@
     "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
     "cache_committed": false,
     "usage": "frozen patch features for local cable anomaly detection"
+  },
+  "local_instruction_model": {
+    "repository": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "revision": "502b5cb068ad185080c7ea271bee653f0f6c0777",
+    "license": "Apache-2.0",
+    "model_sha256": "e6bffe7435d7ddc10fd3b9a9efd429dafbacb1cb17015fb5562664e7532bf86e",
+    "download_bytes": 727051867,
+    "cache_committed": false,
+    "runtime": "Transformers float32 CPU"
   }
 }

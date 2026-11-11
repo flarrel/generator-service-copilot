@@ -11,6 +11,7 @@ dependencies = [
   "huggingface-hub>=0.28,<2",
   "joblib>=1.4,<2",
   "matplotlib>=3.9,<4",
+  "openai>=2.8,<3",
   "pandas>=2.2,<3",
   "pandera[pandas]>=0.23,<1",
   "redis>=6.2,<8",
@@ -30,6 +31,7 @@ prepare-data = "generator_service_copilot.data:main"
 download-mvtec = "generator_service_copilot.download:main"
 train-nlp = "generator_service_copilot.nlp:main"
 train-vision = "generator_service_copilot.vision:main"
+evaluate-prompts = "generator_service_copilot.prompts:main"
 
 [tool.pytest.ini_options]
 addopts = "-q"

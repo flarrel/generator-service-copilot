@@ -77,8 +77,8 @@
     },
     {
       "path": "data/sources.json",
-      "bytes": 1365,
-      "sha256": "c5c07a3116725285f4a3e31ade9d947c4571f3c7ccb41e0368cdefb81e6c2eaa"
+      "bytes": 1740,
+      "sha256": "f1a779b8f9cbd3df1f8a21ecb59868d3380fca8a76fd1df3984533e16b45c9b7"
     }
   ]
 }

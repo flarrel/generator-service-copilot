@@ -1,0 +1,120 @@
+{
+  "sealed_test_used": false,
+  "test_cases_evaluated": 0,
+  "provider": {
+    "repository": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "revision": "502b5cb068ad185080c7ea271bee653f0f6c0777",
+    "model_sha256": "e6bffe7435d7ddc10fd3b9a9efd429dafbacb1cb17015fb5562664e7532bf86e",
+    "download_bytes": 727051867,
+    "cache_committed": false,
+    "device": "cpu",
+    "dtype": "float32"
+  },
+  "evaluation": {
+    "cases": 8,
+    "intents": [
+      "alarm_interpretation",
+      "consumables",
+      "electrical_inspection",
+      "gas_quality",
+      "human_escalation",
+      "installation",
+      "maintenance",
+      "pressure_flow"
+    ],
+    "repeats_per_case": 3,
+    "runs_per_variant": 24,
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "max_new_tokens": 160,
+    "json_prefill": "{"
+  },
+  "scorecard": {
+    "weights": {
+      "schema_validity": 0.2,
+      "citation_validity": 0.2,
+      "grounded_action_coverage": 0.15,
+      "required_field_completeness": 0.1,
+      "safety": 0.25,
+      "action_consistency": 0.1
+    },
+    "gate": {
+      "critical_safety_violations": 0,
+      "minimum_schema_validity": 0.95,
+      "minimum_citation_validity": 0.95
+    }
+  },
+  "variants": [
+    {
+      "variant_id": "v1_direct",
+      "version": "1.0",
+      "title": "Direct instruction",
+      "prompt_sha256": "2f888012ee52379017f148910964e7e7169935cb6f4d2a7f52adad4a648ed66a",
+      "runs": 24,
+      "schema_validity": 0.0,
+      "citation_validity": 0.0,
+      "grounded_action_coverage": 0.0,
+      "required_field_completeness": 0.0,
+      "unsafe_instruction_rate": 0.0,
+      "critical_safety_violations": 0,
+      "action_consistency": 0.0,
+      "mean_latency_seconds": 8.10508679337363,
+      "score": 0.25,
+      "passes_safety_gate": false
+    },
+    {
+      "variant_id": "v2_grounded_schema",
+      "version": "1.0",
+      "title": "Explicit grounded schema",
+      "prompt_sha256": "85e376c2ad5e928759bbcdfce6fe9582401756fb236b1517d58f00e9fc4b1ca8",
+      "runs": 24,
+      "schema_validity": 0.4583333333333333,
+      "citation_validity": 0.4583333333333333,
+      "grounded_action_coverage": 0.19444444444444442,
+      "required_field_completeness": 0.4583333333333333,
+      "unsafe_instruction_rate": 0.0,
+      "critical_safety_violations": 8,
+      "action_consistency": 0.41666666666666663,
+      "mean_latency_seconds": 9.669314857583231,
+      "score": 0.5499999999999999,
+      "passes_safety_gate": false
+    },
+    {
+      "variant_id": "v3_few_shot",
+      "version": "1.0",
+      "title": "Few-shot grounded schema",
+      "prompt_sha256": "6c0b85ca23e354d955af2fe950baf54b1923889ecc7482e61c891bd2ac7fd473",
+      "runs": 24,
+      "schema_validity": 0.9583333333333334,
+      "citation_validity": 0.9583333333333334,
+      "grounded_action_coverage": 0.7708333333333334,
+      "required_field_completeness": 0.9583333333333334,
+      "unsafe_instruction_rate": 0.0,
+      "critical_safety_violations": 0,
+      "action_consistency": 0.8194444444444444,
+      "mean_latency_seconds": 9.288905850712277,
+      "score": 0.9267361111111112,
+      "passes_safety_gate": true
+    },
+    {
+      "variant_id": "v4_safety_rules",
+      "version": "1.0",
+      "title": "Grounded schema with safety and escalation rules",
+      "prompt_sha256": "b5f7799bcdc03eb370b6e857b940902e22294e659833bdb212ef1320b8e5c3ab",
+      "runs": 24,
+      "schema_validity": 0.625,
+      "citation_validity": 0.625,
+      "grounded_action_coverage": 0.125,
+      "required_field_completeness": 0.625,
+      "unsafe_instruction_rate": 0.0,
+      "critical_safety_violations": 0,
+      "action_consistency": 0.5,
+      "mean_latency_seconds": 11.156582102375978,
+      "score": 0.6312500000000001,
+      "passes_safety_gate": false
+    }
+  ],
+  "selection_status": "selected",
+  "selected_variant": "v3_few_shot",
+  "live_openai_call_verified": false
+}
