@@ -44,7 +44,7 @@ An initial run without the JSON opening-token prefill produced zero schema-valid
 
 ## Optional OpenAI provider
 
-The optional adapter uses the Responses API, strict JSON Schema output under `text.format`, the configured model name, and `store=false`. This follows [official OpenAI Responses API guidance](https://developers.openai.com/api/docs/guides/migrate-to-responses?api-mode=responses). Mocked contract tests verify the request and response handling without a key or spend. No live OpenAI call occurred, so live ChatGPT/OpenAI API experience is not claimed.
+The optional adapter uses the Responses API, strict JSON Schema output under `text.format`, the configured model name, and `store=false`. This follows [official OpenAI Responses API guidance](https://developers.openai.com/api/docs/guides/migrate-to-responses?api-mode=responses). Mocked contract tests verify the request and response handling without a key or spend. No live OpenAI call occurred.
 
 ## Reproduction and limits
 

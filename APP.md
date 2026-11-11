@@ -9,7 +9,7 @@ Generator Service Copilot is a four-view Streamlit application for the fictional
 - **Prompt Lab** displays the fixed 96-generation development comparison and selected prompt.
 - **Insights** displays fictional service-case cluster composition and representative cases without presenting them as company history.
 
-The app loads the saved development-selected artifacts from checkpoints 2–4. Both final test splits remain sealed until checkpoint 6.
+The app loads the saved development-selected artifacts from checkpoints 2–4. Both final test splits were subsequently opened once during checkpoint 6 without application retuning.
 
 ## Run locally
 

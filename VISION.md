@@ -6,7 +6,7 @@ This checkpoint detects unusual cable or connector appearance from an uploaded i
 
 The 179 normal training images fit three development candidates. A grayscale-and-edge PCA reconstruction model provides a feature baseline. A 65,363-parameter convolutional autoencoder learns normal-image reconstruction from scratch. The selected detector instead extracts frozen ImageNet ResNet-18 `layer2` patch features, retains a deterministic 5,000-patch normal memory bank, and scores each patch by its nearest normal neighbor. No anomaly image or final-test image is used to fit either model.
 
-Model and threshold selection use only 121 development images (74 normal and 47 anomalous). The image score averages the highest 10% of patch distances. Its decision threshold maximizes development F1, while the localization threshold independently maximizes pixel F1 on development anomaly masks. These thresholds are therefore development estimates, not final generalization claims. The 74-image final test split remains sealed for the later evaluation checkpoint.
+Model and threshold selection used only 121 development images (74 normal and 47 anomalous). The image score averages the highest 10% of patch distances. Its decision threshold maximizes development F1, while the localization threshold independently maximizes pixel F1 on development anomaly masks. The 74-image final test split was later opened once with these thresholds frozen; see `EVALUATION.md`.
 
 ## Development results
 

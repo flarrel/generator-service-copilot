@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-11-11",
+  "environment": {
+    "kind": "fresh isolated virtual environment",
+    "python": "3.12.4",
+    "dependency_source": "requirements-lock.txt",
+    "editable_install": "passed"
+  },
+  "checks": {
+    "ruff_format": "passed (24 files)",
+    "ruff_lint": "passed",
+    "pytest": "passed (49 tests)",
+    "pip_check": "passed",
+    "git_diff_check": "passed"
+  },
+  "evaluation": {
+    "source": "artifacts/evaluation/report.json",
+    "policy": "The sealed test splits were opened once by the frozen final evaluation. They were not used for retuning."
+  }
+}

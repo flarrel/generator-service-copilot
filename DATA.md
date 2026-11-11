@@ -4,7 +4,7 @@
 
 The service cases and manual-style documents are project-authored fictional fixtures. They do not describe Generator Pasifik operations, real customers, or manufacturer-approved procedures.
 
-`prepare-data` deterministically creates 320 cases from 80 semantic scenario groups across eight intents. All four paraphrases of a scenario remain in one split. Each intent contributes 24 training, eight development, and eight sealed test cases. The test cases are generated and schema-checked in checkpoint 1 but are not used for model selection.
+`prepare-data` deterministically creates 320 cases from 80 semantic scenario groups across eight intents. All four paraphrases of a scenario remain in one split. Each intent contributes 24 training, eight development, and eight final test cases. The test cases were not used for model selection and were opened once during the frozen final evaluation.
 
 The eight fictional source documents produce 24 chunks. Every chunk records its source file, document identifier, version, equipment family, safety topic, and synthetic-data flag.
 

@@ -2,7 +2,7 @@
 
 ## Evaluation boundary
 
-Checkpoint 2 uses only the 192 training and 64 development service cases. The 64 service-case test rows remain sealed. All reported values are development results and must not be presented as final generalization estimates.
+Checkpoint 2 used only the 192 training and 64 development service cases. Its values below remain development results. The 64 service-case test rows were later opened once for the frozen evaluation documented in `EVALUATION.md`.
 
 The embedding model is `sentence-transformers/all-MiniLM-L6-v2` at revision `1110a243fdf4706b3f48f1d95db1a4f5529b4d41`. Only the approximately 92 MB required PyTorch files were downloaded; duplicate ONNX, OpenVINO, TensorFlow, and Rust exports were excluded. Inference is forced to CPU for consistent execution on machines without compatible acceleration.
 
@@ -20,7 +20,7 @@ Three candidates were evaluated:
 
 The MLP is trained with the training service cases plus threefold weighting of the 24 approved manual chunks as labeled class prototypes. This uses no development labels for fitting. At the development-selected 0.65 confidence threshold, the model accepts 84.4% of cases at 90.7% accuracy. Low-confidence cases are intended for human review.
 
-The MLP is the checkpoint candidate. Per-case predictions, confidence, correctness, per-class metrics, and all weaker baselines remain in `artifacts/nlp/` for inspection. No final model claim is made before sealed-test evaluation.
+The MLP is the checkpoint candidate. Per-case development predictions, confidence, correctness, per-class metrics, and all weaker baselines remain in `artifacts/nlp/`; final results are reported separately in `EVALUATION.md`.
 
 ## Retrieval
 
