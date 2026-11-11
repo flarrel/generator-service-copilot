@@ -1,0 +1,18 @@
+{
+  "fictional_support_corpus": {
+    "description": "Locally authored fictional service scenarios and manual-style guidance",
+    "origin": "project-authored",
+    "synthetic": true,
+    "operational_claim": "none"
+  },
+  "mvtec_ad_cable": {
+    "official_page": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad",
+    "download_repository": "foersben/mvtec-ad",
+    "revision": "c75b39616f84db43677bcc8228caaafaf5096d7f",
+    "retrieved_on": "2026-11-11",
+    "license": "CC BY-NC-SA 4.0",
+    "license_sha256": "a355a57937552790ebd751f8a8026b23882160ab73f1c38f8030456dfcf1a330",
+    "raw_data_committed": false,
+    "usage": "non-commercial industrial-inspection proxy only"
+  }
+}

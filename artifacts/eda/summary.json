@@ -1,0 +1,69 @@
+{
+  "service_cases": {
+    "rows": 320,
+    "semantic_groups": 80,
+    "intents": 8,
+    "safety_critical_rows": 160,
+    "split_rows": {
+      "development": 64,
+      "test": 64,
+      "train": 192
+    },
+    "rows_per_split_and_intent": {
+      "development": {
+        "alarm_interpretation": 8,
+        "consumables": 8,
+        "electrical_inspection": 8,
+        "gas_quality": 8,
+        "human_escalation": 8,
+        "installation": 8,
+        "maintenance": 8,
+        "pressure_flow": 8
+      },
+      "test": {
+        "alarm_interpretation": 8,
+        "consumables": 8,
+        "electrical_inspection": 8,
+        "gas_quality": 8,
+        "human_escalation": 8,
+        "installation": 8,
+        "maintenance": 8,
+        "pressure_flow": 8
+      },
+      "train": {
+        "alarm_interpretation": 24,
+        "consumables": 24,
+        "electrical_inspection": 24,
+        "gas_quality": 24,
+        "human_escalation": 24,
+        "installation": 24,
+        "maintenance": 24,
+        "pressure_flow": 24
+      }
+    },
+    "synthetic": true
+  },
+  "documents": {
+    "source_documents": 8,
+    "chunks": 24,
+    "versions": [
+      "1.0"
+    ],
+    "synthetic": true
+  },
+  "mvtec_cable": {
+    "status": "available",
+    "images": 374,
+    "train_normal_images": 224,
+    "test_normal_images": 58,
+    "test_anomaly_images": 92,
+    "anomaly_masks": 92,
+    "project_split_rows": {
+      "development": 121,
+      "test": 74,
+      "train": 179
+    },
+    "bytes": 504738427,
+    "license": "CC BY-NC-SA 4.0"
+  }
+}

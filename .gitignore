@@ -1,0 +1,12 @@
+.DS_Store
+.venv/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.egg-info/
+*.py[cod]
+.mplconfig/
+
+# Licensed source images are downloaded locally and represented by manifests.
+data/external/mvtec_ad/**
+!data/external/mvtec_ad/.gitkeep

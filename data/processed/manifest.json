@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "artifacts/eda/summary.json",
+      "bytes": 1538,
+      "sha256": "30d2ec5e6d522d5be15237414a197aef7af3fc534d074a2fb54f5e5ce63f587c"
+    },
+    {
+      "path": "data/processed/document_chunks.csv",
+      "bytes": 8518,
+      "sha256": "5b75d35e614778202460b813e444ffd15cc4fe40b95645bb337d7ad8b08feecf"
+    },
+    {
+      "path": "data/processed/mvtec_cable_manifest.csv",
+      "bytes": 51868,
+      "sha256": "f43582c2582dc0523be6a7e1041b50039ec4135acc71cac4b21658a12e3d4e31"
+    },
+    {
+      "path": "data/processed/service_cases.csv",
+      "bytes": 66535,
+      "sha256": "150ccbee90bcd8bc3140829b96e5a4a6a8f1dcd36566930b36073d4852e3f6d2"
+    },
+    {
+      "path": "data/processed/service_cases_development.csv",
+      "bytes": 13819,
+      "sha256": "2bf2f325949cdaf25ef21884a5160ddac99e6077639350f4c2fe7334cf82719b"
+    },
+    {
+      "path": "data/processed/service_cases_test.csv",
+      "bytes": 13151,
+      "sha256": "54528d5dac17be707f214066c2b70a61fa1341cec924a869dffffd796bb70ef6"
+    },
+    {
+      "path": "data/processed/service_cases_train.csv",
+      "bytes": 39707,
+      "sha256": "125c34b74c3a2aeee2b439b585607e25bb866ab4dee51ee7244ea715347af0e3"
+    },
+    {
+      "path": "data/source/manuals/alarm_interpretation.md",
+      "bytes": 845,
+      "sha256": "ba0a2e302756028262747828e88583431a8ebdbafa59067394cfd7cec67bbab7"
+    },
+    {
+      "path": "data/source/manuals/consumables.md",
+      "bytes": 814,
+      "sha256": "751bfa7271b2bcfb33899dafbd871df99d7bfa521a491e0ad68fb0b826312043"
+    },
+    {
+      "path": "data/source/manuals/electrical_inspection.md",
+      "bytes": 883,
+      "sha256": "88a974e8094009afb5c98dc7ca7419f394ba1390cd4eb4d73c96b56b039f7327"
+    },
+    {
+      "path": "data/source/manuals/gas_quality.md",
+      "bytes": 802,
+      "sha256": "982612fb45df0816564d58117982096d2ae9144ef873830b3dcac56042e38fed"
+    },
+    {
+      "path": "data/source/manuals/human_escalation.md",
+      "bytes": 895,
+      "sha256": "c670a53bd0bf6599932c5e690f9e9576acc1b9cf58f633a39b609865b8c7e1ba"
+    },
+    {
+      "path": "data/source/manuals/installation.md",
+      "bytes": 772,
+      "sha256": "4d38d15a3c295e42305514fa5f15c5ada9da30a26c8c2f2be8a33f69dc2c717b"
+    },
+    {
+      "path": "data/source/manuals/maintenance.md",
+      "bytes": 825,
+      "sha256": "5b12288dd226add1642733d38dc27cd306d7afa7ed96b37cdd357126cf2d8d5b"
+    },
+    {
+      "path": "data/source/manuals/pressure_flow.md",
+      "bytes": 846,
+      "sha256": "9127fbb361a6c8fdcad9e55d8d8a51a7353bc4c6e2e7822f2ea492e82d387c83"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 693,
+      "sha256": "efa7e0cf02a202d4aa005a4afce12dfeeb0b1c610adfe29cb076fce0f1ba20b8"
+    }
+  ]
+}
